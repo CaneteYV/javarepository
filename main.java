@@ -12,9 +12,9 @@ public class main {
         System.out.println("I have the power to send you to a place filled with nothing but anguish and suffering,");
         System.out.println("But I refuse to do that. Farewell.");
         System.out.println("Addition");
-        System.out.println(5 + 3);
+        System.out.println("5 + 3 = " + (5 + 3));
         System.out.println("Subtraction");
-        System.out.println(5 - 3);
+        System.out.println("5 - 3 = " + (5 - 3));
         
 
         
