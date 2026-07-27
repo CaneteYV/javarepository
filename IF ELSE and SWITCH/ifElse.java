@@ -39,5 +39,5 @@ public class ifElse {
                 System.out.println("Water");
                 break;
         }
-        }
-    }
+       }
+      }
