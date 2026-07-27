@@ -3,6 +3,8 @@ package operation;
 public class ifElse {
     public static void main(String[] args) {
 
+
+    System.out.println("Volume Control");
     int volume = 85;
 
         if (volume == 0) {
@@ -17,7 +19,8 @@ public class ifElse {
             System.out.println("Warning: Volume level out of bounds!");
         }
 
-
+    System.out.println("------------------------");
+    System.out.println("Drink Selection");
          int drink = 1;
         switch (drink) {
             case 1:
