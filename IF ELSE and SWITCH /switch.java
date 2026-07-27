@@ -1,18 +1,23 @@
 package operation;
 
-public class Switch {
-    
+public class SwitchExample {
     public static void main(String[] args) {
-        int areYouHungry = 1;
-        switch (areYouHungry) {
+        int drink = 1;
+        switch (drink) {
             case 1:
-                System.out.println("Yes, I'm hungry!");
+                System.out.println("Tea");
                 break;
             case 2:
-                System.out.println("No, I'm not hungry.");
+                System.out.println("Coffee");
+                break;
+            case 3:
+                System.out.println("Juice");
+                break;
+            case 4:
+                System.out.println("Milk tea");
                 break;
             default:
-                System.out.println("Invalid input. Please enter 1 for Yes or 2 for No.");
+                System.out.println("Water");
                 break;
         }
     }
